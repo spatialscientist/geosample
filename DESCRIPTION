@@ -1,0 +1,15 @@
+Package: geosample
+Title: Sample a population of spatial locations
+Version: 0.0.0.9000
+Date: 2018-10-06
+Authors@R: c(person("Godwin", "Developer", role = c("aut", "cre"), email = "G.Yeboah@warwick.ac.uk"),
+             person("Chipeta et al, 2017", "Developer", role = "ctb", email = "m.chipeta@lancaster.ac.uk"))
+Author: Godwin Yeboah [aut, cre], Chipeta et al, 2017 [ctb]
+Maintainer: Godwin Yeboah <G.Yeboah@warwick.ac.uk>
+Description: Sample locations from geospatial inputs from a projected coordinatee system.
+Depends: R (>= 3.5.1)
+License: License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2425

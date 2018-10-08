@@ -1,1 +1,1 @@
-geosample test
+GEOSAMPLE - A function for generating a sample from a population of spatial locations.
