@@ -1,1 +1,1 @@
-GEOSAMPLE - A function for generating a sample from a population of spatial locations.
+GEOSAMPLE - r package for generating a sample from a population of spatial locations.
