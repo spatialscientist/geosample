@@ -1,5 +1,5 @@
 Package: geosample
-Title: Sample a population of spatial locations
+Title: An r package for creating a survey sample from population of spatial locations
 Version: 0.0.0.9000
 Date: 2018-10-06
 Authors@R: c(person("Godwin", "Developer", role = c("aut", "cre"), email = "G.Yeboah@warwick.ac.uk"),
