@@ -8,10 +8,14 @@ b) Add functinality to allow direct extraction of buildings (or using its centro
 
 
 Stepwise example for current working function
-'##Step 1 Download OpenStreetMap.org buildings data (e.g. Sasa in Nigeria)
-'##Step 2 Transform the WGS84 coordinate system into a projected coordinate system (e.g. in the case of Sasa using the EPSG:26391 in QGIS software)
-'##Step 3 Generate the centroids of the buildings and convert file into a comma separated file (a .csv file)
-'##Step 4 Read the *.csv file or sample data "SasaSampleData.csv"
+
+##Step 1 Download OpenStreetMap.org buildings data (e.g. Sasa in Nigeria)
+
+##Step 2 Transform the WGS84 coordinate system into a projected coordinate system (e.g. in the case of Sasa using the EPSG:26391 in QGIS software)
+
+##Step 3 Generate the centroids of the buildings and convert file into a comma separated file (a .csv file)
+
+##Step 4 Read the *.csv file or sample data "SasaSampleData.csv"
 
 csvdata<-read.csv('./sampledata/SasaSampleData.csv', header=TRUE, stringsAsFactors=FALSE)
 
