@@ -14,8 +14,8 @@
 #' ##Step 1 Download OpenStreetMap.org buildings data (e.g. Sasa in Nigeria)
 #' ##Step 2 Transform the WGS84 coordinate system into a projected coordinate system (e.g. in the case of Sasa using the EPSG:26391 in QGIS software)
 #' ##Step 3 Generate the centroids of the buildings and convert file into a comma separated file (a .csv file)
-#' ##Step 4 Read the *.csv file
-#' csvdata<-read.csv('H:/uow/CODE/R/csv/SasaWestBeltSystem.csv', header=TRUE, stringsAsFactors=FALSE)
+#' ##Step 4 Read the *.csv file or sample data "SasaSampleData.csv"
+#' csvdata<-read.csv('./sampledata/SasaSampleData.csv', header=TRUE, stringsAsFactors=FALSE)
 #' ##Step 5 Set the seed number to avoid always generating different sets of random samples everything you execute the function
 #' set.seed(16713)
 #' ##Step 6 Set parameters for the function and stored the return value: my.discrete.geosample <- discrete.geosample(population, xcolmun, ycolumn, minimumdistance, closepairs, samplesize, circleradius)
