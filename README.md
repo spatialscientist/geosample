@@ -7,7 +7,7 @@ a) Add functionality to allow WGS84 longitude and latitude coordinates. Function
 b) Add functinality to allow direct extraction of buildings (or using its centroids) directly from OpenStreetMap.org
 
 
-Stepwise example for current working function
+STEPWISE EXAMPLE FOR CURRENT WORKING FUNCTION
 
 ##Step 1 Download OpenStreetMap.org buildings data (e.g. Sasa in Nigeria)
 
@@ -41,7 +41,7 @@ plot(csvdata[,1],csvdata[,2],pch=19,cex=0.25,xlab="X",ylab="Y",cex.lab=1,cex.axi
 points(newsample[,1],newsample[,2],pch=19,col="blue")
 
 
-Acknowledgement
+ACKNOWLEDGEMENT
 
 [1] Chipeta, M.G., Terlouw, D.J., Phiri, K.S. and Diggle, P.J. (2017). Inhibitory
 geostatistical designs for spatial prediction taking account of uncertain
