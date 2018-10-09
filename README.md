@@ -47,4 +47,4 @@ ACKNOWLEDGEMENT
 geostatistical designs for spatial prediction taking account of uncertain
 covariance structure. Environmetrics, 28, DOI: 10.1002/env.2425
 
-[2] Chipeta, M. G. (2016). Geostatistical design and analysis for estimating local variations in malaria disease burden Lancaster University 
+[2] Chipeta MG. Geostatistical design and analysis for estimating local variations in malaria disease burden. Lancaster University, 2016. 231 p.
