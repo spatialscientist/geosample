@@ -22,7 +22,7 @@ csvdata<-read.csv('./sampledata/SasaSampleData.csv', header=TRUE, stringsAsFacto
 ##Step 5 Set the seed number to avoid always generating different sets of random samples everytime you execute the function
 set.seed(16713)
 
-##Step 6 Set parameters for the function and stored the return value: my.discrete.geosample <- discrete.geosample(population, xcolmun, ycolumn, minimumdistance, closepairs, samplesize, circleradius)
+##Step 6 Set parameters for the function and stored the return value: my.discrete.geosample <- discrete.geosample(population, samplesize, xcolumn, ycolumn, minimumdistance, closepairs, circleradius)
 
 my.discrete.geosample <- discrete_geosample(csvdata, 385,1, 2, 18, 10,  5)
 
